@@ -134,10 +134,10 @@
             label = "SYM";
             bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
-                &trans      &trans      &trans      &trans      &trans          &trans      &trans      &trans      &trans      &trans
-                &trans      &trans      &trans      &trans      &trans          &trans      &trans      &trans      &trans      &trans
-    &trans      &trans      &trans      &trans      &trans      &trans          &trans      &trans      &trans      &trans      &trans      &trans
-                                        &trans      &trans      &trans          &trans      &trans      &trans
+                &kp EXCL    &kp AT      &kp HASH    &kp DLLR    &kp PRCNT       &trans      &trans      &trans      &trans      &trans
+                &kp AMPS    &kp BSLSH   &kp LPAR    &kp RPAR    &kp PIPE        &trans      &trans      &trans      &trans      &trans
+    &trans      &kp GRAVE   &kp CARET   &kp LBKT    &kp RBKT    &kp BSLSH       &trans      &trans      &trans      &trans      &trans      &trans
+                                        &kp LT      &kp GT      &kp EUQAL       &trans      &trans      &trans
             >;
         };
 
